@@ -1,0 +1,22 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+venv/
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+
+# Local model and tool caches
+.cache/
+cache/
+HF_home/
+
+# Editor and operating system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
